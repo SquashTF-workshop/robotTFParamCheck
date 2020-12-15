@@ -12,9 +12,9 @@ Check TC CUF
     Should Be Equal                   testcaseValue           ${PARAM}
 
 Check DS_NAME
-    Load Squash Test Parameter        DS_NAME
+    Load Squash Test Parameter        DSNAME
     Should Be Equal                   dataset1                ${PARAM}
-    Load Squash All Parameter         DS_NAME
+    Load Squash All Parameter         DSNAME
     Should Be Equal                   dataset1                ${PARAM}
 
 Check DS_FIRST_PARAM

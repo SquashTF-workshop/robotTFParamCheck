@@ -20,7 +20,7 @@ Pour qu'un test soit en succès, il faut insérer dans Squash TM les information
 
   - IT_CUF_iteration : iterationValue
 
-  - DS_NAME : dataset1
+  - DSNAME : dataset1
 
   - DS_FIRST_PARAM : value1
 
