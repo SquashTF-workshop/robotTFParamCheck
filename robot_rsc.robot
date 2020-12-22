@@ -1,2 +1,2 @@
 *** Settings ***
-Resource        resources/param_keywords.robot
+Resource        ${CURDIR}${/}resources/param_keywords.robot
