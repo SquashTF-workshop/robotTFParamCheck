@@ -44,9 +44,9 @@ Check DS_FIRST_PARAM
 
 Check Default Param
     Load Squash Default Test Parameter
-    Should Be Equal              DefaultTestParam        ${PARAM}
+    Should Be Equal              Failure        ${PARAM}
     Load Squash Default All Parameter
-    Should Be Equal              DefaultAllParam         ${PARAM}
+    Should Be Equal              Failure         ${PARAM}
 
 Check Default Param Failure
     Load Squash Default Test Parameter

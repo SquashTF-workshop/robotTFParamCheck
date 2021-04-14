@@ -25,3 +25,8 @@ Pour qu'un test soit en succès, il faut insérer dans Squash TM les information
   - DS_FIRST_PARAM : value1
 
 Deux cas de tests sont également présent avec des valeurs par défaut, un en succès, l'autre en échec.
+
+Nouvelle branche pour tester la vérification du fichier .robot
+
+La méthode Check Default Param du robot_premium.robot a été modifiée pour être KO, contrairement à 
+celui de robot_community qui sera OK.
