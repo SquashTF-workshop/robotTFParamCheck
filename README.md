@@ -25,3 +25,9 @@ Pour qu'un test soit en succès, il faut insérer dans Squash TM les information
   - DS_FIRST_PARAM : value1
 
 Deux cas de tests sont également présent avec des valeurs par défaut, un en succès, l'autre en échec.
+
+Le test robot_community_special_char.robot a été ajouté afin de tester le transfert des caractères spéciaux.
+
+La chaîne à ajouter en tant que valeur de jeu de données et CUF du cas de test est la suivante :
+
+$@=%#\&"'{}|[]
