@@ -15,6 +15,8 @@ Load Squash All Parameter
     Set Test Variable       \${PARAM}
 
 Load Squash Default Test Parameter
+    [Documentation]         This is a keyword doc
+    ...                     eheheh
     ${PARAM}=               Get Test Param              UnavailableVar        DefaultTestParam
     Set Test Variable       \${PARAM}
 
