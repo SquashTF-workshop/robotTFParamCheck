@@ -24,8 +24,6 @@ Check DS_FIRST_PARAM
     Should Be Equal                   value1                  ${PARAM}
 
 Check Default Param
-    [Documentation]                   this is a test case doc
-    ...                               and it is multiline
     Load Squash Default Test Parameter
     Should Be Equal                   DefaultTestParam        ${PARAM}
     Load Squash Default All Parameter
